@@ -1,0 +1,356 @@
+.header {
+  background-color: hsl(0, 0%, 98%);
+}
+
+.pargraph {
+  color: hsl(229, 6%, 66%);
+}
+
+.colorFirstText {
+  color: hsl(229, 6%, 66%);
+  display: block;
+}
+
+.colorSecondText {
+  color: hsl(234, 12%, 34%);
+  display: block;
+}
+
+.pargraphInCards {
+  color: hsl(229, 6%, 66%);
+  width: 250px;
+  font-size: 15px;
+}
+
+.cards {
+  background-color: white;
+  margin-top: 40px;
+  border-radius: 7px;
+  box-shadow: gainsboro 3px 3px 5px 4px;
+}
+
+.cardOne {
+  border-top: 5px solid hsl(180, 62%, 55%);
+}
+
+.cardTwo {
+  border-top: 5px solid hsl(0, 78%, 62%);
+}
+
+.cardThree {
+  border-top: 5px solid hsl(34, 97%, 64%);
+}
+
+.cardFour {
+  border-top: 5px solid hsl(212, 86%, 64%);
+}
+
+@media only screen and (max-width: 1400px) {
+  .header {
+    height: 800px;
+  }
+  .pargraph {
+    width: 520px;
+    text-align: center;
+    margin-left: 307px;
+  }
+
+  .cards {
+    width: 330px;
+    height: 250px;
+  }
+
+  .cardOne {
+    align-self: center;
+    width: 330px;
+  }
+
+  .cardFour {
+    align-self: center;
+    margin-left: 10px;
+    width: 330px;
+  }
+
+  .icon {
+    margin-left: 237px;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .cardFour {
+    margin: -220px 326px 0px 0px;
+  }
+
+  .cardOne {
+    margin: -220px 0px 0px 0px;
+  }
+
+  .pargraph {
+    width: 420px;
+    text-align: center;
+    margin-left: 251px !important;
+  }
+
+  .cards {
+    width: 300px;
+    height: 220px;
+  }
+
+  .icon {
+    margin-top: 10px;
+    margin-left: 160px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .cardFour {
+    margin: -220px 243px 0px 0px;
+  }
+
+  .cardOne {
+    margin: -220px 0px 0px 0px;
+  }
+
+  .pargraph {
+    width: 420px;
+    text-align: center;
+    margin-left: 137px !important;
+  }
+
+  .icon {
+    margin-top: 10px;
+    margin-left: 160px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .header {
+    height: 1180px;
+  }
+
+  .pargraph {
+    width: 420px;
+    margin-left: 48px !important;
+  }
+
+  .cardFour {
+    align-self: center;
+    margin: 15px 8px 0px 0px !important;
+  }
+
+  .cardOne {
+    margin: 15px 0px 0px 0px !important;
+    align-self: center;
+  }
+
+  .cardTwo {
+    margin: 15px 0px 0px 102 !important;
+    align-self: center;
+  }
+
+  .cardThree {
+    margin: 15px 0px 0px 102 !important;
+    align-self: center;
+  }
+
+  .icon {
+    margin-top: 10px;
+    margin-left: 130px;
+  }
+
+  .pargraphInCards {
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .header {
+    height: 1200px;
+    text-align: center;
+  }
+
+  .pargraph {
+    margin-left: 75px !important;
+    width: 320px;
+  }
+
+  .cardFour {
+    align-self: center;
+    margin: 15px 5px 0px 0px !important;
+  }
+
+  .icon {
+    margin-left: 159px;
+  }
+
+  .marginRightSecondCol {
+    margin-right: 50px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .header {
+    height: 1200px;
+    text-align: center;
+  }
+
+  .pargraph {
+    margin-left: 85px;
+    width: 320px;
+  }
+
+  .cardFour {
+    align-self: center;
+    margin: 15px 0px 0px 0px !important;
+  }
+
+  .icon {
+    margin-left: 159px;
+  }
+
+  .marginRightSecondCol {
+    margin-right: 110px !important;
+  }
+}
+
+@media only screen and (max-width: 466px) {
+  .header {
+    height: 1200px;
+    text-align: center;
+  }
+
+  .pargraph {
+    margin-left: 63px !important;
+    width: 300px;
+  }
+
+  .cardFour {
+    align-self: center;
+    margin: 15px 0px 0px 0px !important;
+  }
+
+  .icon {
+    margin-left: 159px;
+  }
+
+  .cards {
+    width: 250px;
+    height: 220px;
+  }
+
+  .marginRightSecondCol {
+    margin-right: 30px !important;
+  }
+
+  .pargraphInCards {
+    width: 200px;
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 441px) {
+  .header {
+    height: 1200px;
+    text-align: center;
+  }
+
+  .pargraph {
+    margin-left: 23px !important;
+    width: 300px;
+  }
+
+  .cardFour {
+    align-self: center;
+    margin: 15px 0px 0px 0px !important;
+  }
+
+  .icon {
+    margin-left: 159px;
+  }
+
+  .cards {
+    width: 250px !important;
+    height: 220px;
+  }
+
+  .marginRightSecondCol {
+    margin-right: 111px !important;
+  }
+
+  .pargraphInCards {
+    width: 200px;
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 348px) {
+  .header {
+    height: 1200px;
+    text-align: center;
+    width: fit-content;
+  }
+
+  .pargraph {
+    margin-left: 61px !important;
+    width: 300px;
+  }
+
+  .cardFour {
+    align-self: center;
+    margin: 15px 0px 0px 0px !important;
+  }
+
+  .icon {
+    margin-left: 159px;
+  }
+
+  .cards {
+    width: 250px !important;
+    height: 220px;
+  }
+
+  .marginRightSecondCol {
+    margin-right: 52px !important;
+  }
+
+  .pargraphInCards {
+    width: 200px;
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 348px) {
+  .header {
+    height: 1200px;
+    text-align: center;
+    width: fit-content;
+  }
+
+  .pargraph {
+    margin-left: 61px !important;
+    width: 300px;
+  }
+
+  .cardFour {
+    align-self: center;
+    margin: 15px 0px 0px 0px !important;
+  }
+
+  .icon {
+    margin-left: 159px;
+  }
+
+  .cards {
+    width: 250px !important;
+    height: 220px;
+  }
+
+  .marginRightSecondCol {
+    margin-right: 52px !important;
+  }
+
+  .pargraphInCards {
+    width: 200px;
+    margin-left: 20px;
+  }
+}
